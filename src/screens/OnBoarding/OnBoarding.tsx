@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { View, Text, ImageBackground } from "react-native";
+import { View, Text, ImageBackground, StatusBar } from "react-native";
 import AppIntroSlider from "react-native-app-intro-slider";
 import { Button } from "react-native-paper";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
@@ -75,6 +75,11 @@ export const OnBoarding = ({ navigation }: any) => {
   return (
     // SafeAreaView Used To Fix Design In Notch Screen Phones
     <View style={styles.screen}>
+      <StatusBar
+        barStyle="dark-content"
+        backgroundColor="transparent"
+        translucent
+      />
       <AppIntroSlider
         renderItem={renderItem}
         data={WELCOME_SLIDER_DATA}
