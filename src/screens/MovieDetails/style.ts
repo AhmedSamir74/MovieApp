@@ -96,9 +96,9 @@ export const styles = StyleSheet.create({
     backgroundColor: theme.colors.veryLightGrey,
   },
   creditImg: {
-    width: 70,
-    height: 70,
-    borderRadius: 70 / 2,
+    width: 80,
+    height: 80,
+    borderRadius: 80 / 2,
   },
   creditName: {
     marginBottom: 7,
@@ -110,7 +110,9 @@ export const styles = StyleSheet.create({
     justifyContent: "space-between",
     alignItems: "center",
   },
-
+  creditList: {
+    width: SCREEN_WIDTH,
+  },
   //ANIMATED TOAST
   checkMark: {
     width: 18,

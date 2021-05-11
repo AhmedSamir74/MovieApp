@@ -283,7 +283,7 @@ class MovieDetails extends Component<any> {
                         </View>
                       )}
                       keyExtractor={(item, index) => `${index}`}
-                      showsHorizontalScrollIndicator={false}
+                      style={styles.creditList}
                     />
                   </View>
                 )}
