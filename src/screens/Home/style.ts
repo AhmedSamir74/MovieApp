@@ -21,5 +21,6 @@ export const styles = StyleSheet.create({
   categoryList: {
     marginTop: 5,
     marginBottom: 10,
+    alignSelf: "center",
   },
 });
