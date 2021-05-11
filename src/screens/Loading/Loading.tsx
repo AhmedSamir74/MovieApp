@@ -7,9 +7,9 @@ export const LoadingScreen = (props: any) => {
   const newUserHelper = async () => {
     const returnedNewUser = await isNewUser();
     if (returnedNewUser) {
-      props.navigation.navigate("OnBoarding");
+      props.navigation.replace("OnBoarding");
     } else {
-      props.navigation.navigate("Authorized");
+      props.navigation.replace("Authorized");
     }
   };
   useEffect(() => {
