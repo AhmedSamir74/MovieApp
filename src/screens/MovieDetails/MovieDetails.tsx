@@ -17,7 +17,6 @@ import { connect } from "react-redux";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import { IMovie } from "../../models";
 import { strings } from "../../localization/i18n";
-import { Card } from "../../components/UI";
 import {
   addToFavorite,
   removeFromFavorite,
