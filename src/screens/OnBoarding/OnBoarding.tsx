@@ -32,7 +32,7 @@ export const OnBoarding = ({ navigation }: any) => {
   };
 
   const onDone = () => {
-    navigation.navigate("Authorized");
+    navigation.replace("Authorized");
   };
 
   const renderNextButton = () => {
