@@ -5,9 +5,9 @@ export const theme = {
   roundness: 2,
   colors: {
     ...DefaultTheme.colors,
-    primary: "#FEB100",
-    accent: "#2d2d2d",
-    background: "#1b1b1b",
+    primary: "#fff",
+    accent: "#d8d8d8",
+    background: "#fff",
     surface: "#e2e2e2",
     placeholder: "#8c8c8c",
     backdrop: "#F9F9F9",
@@ -20,5 +20,7 @@ export const theme = {
     cardColor: "#F1F1F1",
     googleColor: "#dd4b39",
     redColor: "red",
+    green: "#47b611",
+    yellow: "#FEB100",
   },
 };

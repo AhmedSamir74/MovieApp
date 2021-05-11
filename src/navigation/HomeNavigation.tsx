@@ -20,16 +20,16 @@ const HomeNavigation = () => (
         return {
           headerTitle: strings("moviesHome"),
           headerStyle: {
-            backgroundColor: theme.colors.accent,
+            backgroundColor: theme.colors.white,
           },
           headerTitleStyle: {
             fontWeight: "bold",
-            color: theme.colors.white,
+            color: theme.colors.black,
           },
           headerRight: () => (
             <MaterialCommunityIcons
-              name="heart"
-              color={theme.colors.white}
+              name="heart-outline"
+              color={theme.colors.green}
               size={26}
               style={{ marginHorizontal: 10 }}
               onPress={() => navigation.navigate("Favorites")}
@@ -52,16 +52,16 @@ const HomeNavigation = () => (
         return {
           headerTitle: strings("favorites"),
           headerStyle: {
-            backgroundColor: theme.colors.accent,
+            backgroundColor: theme.colors.white,
           },
           headerTitleStyle: {
             fontWeight: "bold",
-            color: theme.colors.white,
+            color: theme.colors.black,
           },
           headerLeft: () => (
             <MaterialCommunityIcons
               name="chevron-left"
-              color={theme.colors.white}
+              color={theme.colors.black}
               size={35}
               style={{ paddingHorizontal: 10 }}
               onPress={() => navigation.goBack()}

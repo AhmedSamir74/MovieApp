@@ -1,13 +1,13 @@
 const en = {
-  //General
-  appName: "TMDB Movies",
+  appName: "Movies App",
+
   getStarted: "skip",
   pickPoster: "Pick a poster",
   title: "Title",
   overview: "Overview",
   date: "Date",
   submit: "Submit",
-  moviesHome: "Movies Home",
+  moviesHome: "Movies",
   emptyList: "Your Movies List Is Empty",
   addMovie: "Add Movie",
   confirm: "Confirm",
@@ -22,6 +22,11 @@ const en = {
   favListEmpty: "Your favorites list is empty",
   startAddingNow: "start Adding now",
   addedToFav: "Movie added to favorites",
+
+  upComing: "Upcoming",
+  popular: "Popular",
+  topRated: "Top Rated",
+  credits: "Credits",
 };
 
 export default en;
