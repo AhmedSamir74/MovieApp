@@ -84,10 +84,12 @@ class HomeScreen extends Component<any> {
               item={item}
               activeCategory={this.state.activeCategory}
               onCategoryPress={() => {
-                this.setState(
-                  { requestLoading: true, activeCategory: item.key },
-                  () => this.getMovies(1, true)
-                );
+                if (this.state.activeCategory != item.key) {
+                  this.setState(
+                    { requestLoading: true, activeCategory: item.key },
+                    () => this.getMovies(1, true)
+                  );
+                }
               }}
             />
           )}
