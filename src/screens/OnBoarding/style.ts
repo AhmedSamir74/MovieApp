@@ -48,6 +48,6 @@ export default StyleSheet.create({
     borderRadius: 10,
   },
   getStartLabel: {
-    color: theme.colors.white,
+    color: theme.colors.yellow,
   },
 });

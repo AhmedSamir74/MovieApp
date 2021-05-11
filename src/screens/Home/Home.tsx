@@ -41,7 +41,7 @@ class HomeScreen extends Component<any> {
   }
 
   async getMovies(pageNum: number, isRefresh?: boolean) {
-    if (pageNum != 1 || isRefresh) {
+    if (isRefresh) {
       this.setState({ refreshing: true });
     }
 
@@ -113,10 +113,7 @@ class HomeScreen extends Component<any> {
             ListFooterComponent={() =>
               this.state.movies.length > NUM_OF_MOVIES_PER_SCREEN ? (
                 <View style={styles.footerCont}>
-                  <ActivityIndicator
-                    size="small"
-                    color={theme.colors.primary}
-                  />
+                  <ActivityIndicator size="small" color={theme.colors.green} />
                 </View>
               ) : null
             }
